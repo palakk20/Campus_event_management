@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef2f6;
+    color: #222;
+}
+
+.app {
+    min-height: 100vh;
+}
+
+.header {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 28px 20px;
+    border-bottom: 4px solid #2563a6;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.header p {
+    margin: 8px 0 0;
+    color: #cbd5e1;
+    font-size: 15px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    padding: 25px;
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.form h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #1f2937;
+    font-size: 22px;
+}
+
+.form input,
+.form select {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 12px;
+    border: 1px solid #9ca3af;
+    border-radius: 4px;
+    font-size: 14px;
+    background: white;
+    color: #222;
+}
+
+.form input:focus,
+.form select:focus {
+    outline: none;
+    border-color: #2563a6;
+}
+
+.form button {
+    display: block;
+    margin: 8px auto 0;
+    padding: 10px 22px;
+    background: #2563a6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.form button:hover {
+    background: #1d4f80;
+}
+
+.message {
+    text-align: center;
+    color: #2563a6;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.records-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1f2937;
+    border-left: 4px solid #2563a6;
+    padding-left: 10px;
+}
+
+.no-events {
+    text-align: center;
+    color: #6b7280;
+}
+
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.event-card {
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-left: 5px solid #2563a6;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.event-card h3 {
+    margin: 0 0 15px;
+    font-size: 20px;
+    color: #1f2937;
+}
+
+.event-card p {
+    margin: 8px 0;
+    color: #4b5563;
+    font-size: 14px;
+}
+
+.event-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.edit-button,
+.delete-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.edit-button {
+    background: #cbd5e1;
+    color: #1f2937;
+}
+
+.edit-button:hover {
+    background: #94a3b8;
+}
+
+.delete-button {
+    background: #374151;
+    color: white;
+}
+
+.delete-button:hover {
+    background: #111827;
+}
